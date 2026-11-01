@@ -1,0 +1,28 @@
+BDA400 Assignment 6 - Validation Checklist
+Student: Parvana Babali
+
+STATIC CODE REVIEW CHECKS
+[PASS] app.R loads shiny, ggplot2, quantmod, and TTR.
+[PASS] Yahoo Finance is specified as the stock-data source.
+[PASS] Symbol, start date, and end date are user controlled.
+[PASS] Errors from invalid symbols/download failures are caught and reported.
+[PASS] Daily, weekly, and monthly aggregation are implemented.
+[PASS] Line, area, and candlestick chart types are implemented.
+[PASS] Moving Average, RSI, and MACD controls can be toggled independently.
+[PASS] Short MA, long MA, and RSI periods are user customizable.
+[PASS] MA crossover trading logic generates Buy/Sell/Hold status.
+[PASS] Optional MA + RSI confirmation rule is implemented.
+[PASS] Buy and Sell events are annotated on the stock-price chart.
+[PASS] Summary and recent signal tables are included.
+[PASS] Direct Assignment06 GitHub link is included in the report and README.
+
+RUNTIME REVIEW TO PERFORM IN RSTUDIO
+1. Run setup_packages.R.
+2. Run shiny::runApp().
+3. Verify a valid ticker such as AAPL loads.
+4. Switch Daily / Weekly / Monthly.
+5. Switch Line / Area / Candlestick.
+6. Toggle Moving Averages / RSI / MACD.
+7. Change short/long MA values and confirm chart updates.
+8. Verify Buy/Sell markers appear when crossovers occur.
+9. Enter an invalid ticker and confirm a friendly error is shown.
