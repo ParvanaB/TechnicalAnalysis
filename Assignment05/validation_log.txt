@@ -1,0 +1,17 @@
+BDA400 Assignment 5 - Independent Validation Summary
+Student: Parvana Babali
+
+SMA(3) expected: 12.333333, 15.666667, 17.666667, 20.000000, 21.666667, 23.666667, 23.333333
+EMA(3) expected: 10.000000, 11.000000, 13.000000, 16.500000, 17.250000, 19.625000, 22.312500, 23.156250, 22.078125
+MACD line expected: 0.000000, 0.833333, 1.805556, 2.662037, 3.337191, 3.839378, 4.200210
+MACD signal expected: 0.000000, 0.555556, 1.388889, 2.237654, 2.970679, 3.549811, 3.983410
+MACD histogram expected: 0.000000, 0.277778, 0.416667, 0.424383, 0.366512, 0.289566, 0.216800
+Population stdev expected: 4.946629
+Linreg slope expected: 0.800000
+Linreg intercept expected: 19.600000
+Linreg predictions expected: 20.400000, 21.200000, 22.000000, 22.800000, 23.600000
+RSI expected: NA, NA, NA, NA, NA, 60.000000, 74.400000, 76.727273, 81.876106, 70.223909
+StochRSI %K expected: 0.469805, 0.799982, 0.736952, 0.741571, 0.719227, 0.740807, 0.751057, 0.766712, 0.764214, 0.770924, 0.780770, 0.779237, 0.783187
+StochRSI %D expected: 0.668913, 0.759501, 0.732583, 0.733868, 0.737031, 0.752859, 0.760661, 0.767283, 0.771969, 0.776977, 0.781065
+Crossover expected: None, None, None, Up, None, None, None, None, None
+Crossunder expected: None, False, False, False, False, False, False, False, False
